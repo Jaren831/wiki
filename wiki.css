@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto";
+  background-color: grey;
+}
+
+#wikiBox {
+  background-color: salmon;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 10%;
+  width: 50%;
+  margin-top: 35%;
+  padding-top: 5%;
+  border-radius: 4px;
+}
+
+#searchBox {
+  text-align: center;
+  position: relative;
+}
+
+#randomWiki {
+  text-align: center;
+}
+
+#wiki {
+  border-radius: 2px;
+}

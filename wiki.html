@@ -3,14 +3,16 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="font-awesome-animation.min.css">
+	<script src="jquery-1.12.2.min.js"></script>
+
 </head>
 
 <body>
 	<div id = "wikiBox">
 		<div id = "searchBox">
 			<form>
-				<input type="text" name="searchEntry"></input>
-				<a class="btn search" title="Search!" target="_blank" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+				<input type="text" id="searchEntry" placeholder="Search for..."></input>
+				<a class="btn" id="searchBtn" title="Search!" target="_blank" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 			</form>
 		</div>
 		<div id="randomWiki">
